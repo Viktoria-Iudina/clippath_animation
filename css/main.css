@@ -5,6 +5,40 @@
           box-sizing: border-box;
 }
 
+.btn {
+  background-color: #27112d;
+  border-radius: 8px;
+  font-family: "Gill Sans Nova", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Gill Sans Nova", sans-serif;
+  padding: 0.8em 2em;
+  text-decoration: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  z-index: 999;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
 body {
   background-color: #eff3fb;
   margin: 0;
@@ -18,12 +52,53 @@ h4,
 h5,
 h6 {
   font-family: "Bennet Banner", serif;
+  color: #27112d;
 }
 
 p {
   font-family: "Gill Sans Nova", sans-serif;
   font-size: 17px;
   color: #27112d;
+}
+
+.center {
+  display: block;
+  margin: auto;
+}
+
+.navigation-bar {
+  background-color: #eff3fb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  padding: 1em 11em;
+  width: 100%;
+  z-index: 999;
+}
+
+.navigation-bar ul {
+  list-style: none;
+  font-family: "Gill Sans Nova", sans-serif;
+  color: #27112d;
+}
+
+.navigation-bar ul li {
+  display: inline;
+  font-weight: 600;
+  padding-right: 50px;
+}
+
+.navigation-bar .li-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .banner {
@@ -74,6 +149,49 @@ p {
   position: absolute;
 }
 
+.container .content a,
+.container2 .content a {
+  background-color: #27112d;
+  border-radius: 8px;
+  font-family: "Gill Sans Nova", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Gill Sans Nova", sans-serif;
+  padding: 0.8em 2em;
+  text-decoration: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  z-index: 999;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  position: absolute;
+  top: 10vh;
+}
+
+.container .content a:hover,
+.container2 .content a:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.container .content a:hover,
+.container2 .content a:hover {
+  cursor: pointer;
+}
+
 .container2 {
   z-index: -1;
 }
@@ -88,5 +206,24 @@ p {
   margin: 5em 11em;
   position: relative;
   text-align: center;
+}
+
+.voilavoila .first .btn {
+  margin-top: 2em;
+}
+
+.second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5em;
+}
+
+.second > div {
+  padding: 0 0.5em;
+  width: 29%;
 }
 /*# sourceMappingURL=main.css.map */

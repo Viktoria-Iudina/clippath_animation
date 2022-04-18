@@ -61,6 +61,17 @@ p {
   color: #27112d;
 }
 
+.rounded {
+  width: 440px;
+  height: 440px;
+  border-radius: 500px;
+  background-image: linear-gradient(308deg, #ff7448 25%, #ff4848 54%, #6248ff 78%);
+  -webkit-filter: blur(100px);
+  filter: blur(100px);
+  position: absolute;
+  z-index: -1;
+}
+
 .center {
   display: block;
   margin: auto;
